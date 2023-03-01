@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    @media screen and (max-width: 400px) {
+        flex-direction: column;
+      }
 
     .category-container {
             width: 28vw;
@@ -9,6 +12,11 @@
             position: relative;
             overflow: hidden;
             cursor: pointer;
+            @media screen and (max-width: 400px) {
+                width: 80vw;
+                height: 100vw;
+                margin-bottom: 20px;
+              }
         .category-thumbnail {
             width: 100%;
             transition: transform 0.25s ease;
@@ -22,6 +30,9 @@
             text-transform: uppercase;
             left: 10%;
             top: 5%;
+            @media screen and (max-width: 400px) {
+                font-size: 4vw;
+              }
         }
     }
     .category-thumbnail:hover {

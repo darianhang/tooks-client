@@ -1,4 +1,7 @@
 .slide-wrapper { 
+    @media screen and (max-width: 800px) {
+        margin-top: 80px;
+      }
     display: flex;
     position: relative;
     box-sizing: border-box;
@@ -42,10 +45,17 @@
             h1 {
                 font-size: 120px;
                 line-height: 130px;
+                @media screen and (max-width: 800px) {
+                    font-size: 80px;
+                    line-height: 80px;
+                  }
             }
             h2 {
                 font-size: 30px;
                 text-transform: uppercase;
+                @media screen and (max-width: 800px) {
+                    font-size: 15px;
+                  }
             }
     }
 }
