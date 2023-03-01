@@ -17,10 +17,19 @@ const Layout = () => {
   )
 }
 
+const ErrorBoundary = () => {
+  return (
+    <div>
+      Oops, my server must be down. Sorry potential hiring manager :(
+    </div>
+  )
+}
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <ErrorBoundary />,
     children: [
       {
         path: "/",
