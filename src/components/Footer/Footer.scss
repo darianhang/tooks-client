@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 120px auto 80px auto;
+    line-height: 35px;
+    width: 87.5vw;
+    border-top: 1px solid #000000;
+    padding-top: 45px;
+        .footer-left {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+                li {
+                    list-style: none;
+                }
+        }
+        .footer-center {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+                li {
+                    list-style: none;
+                }
+        }
+        .footer-right {
+            display: flex;
+            flex: 2;
+            flex-direction: column;
+                .contact-input {
+                    height: 28px;
+                    padding-left: 10px;
+                }
+        }
+        .footer-section-name {
+            font-weight: 600;
+        }
+}

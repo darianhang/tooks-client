@@ -1,0 +1,23 @@
+.about-wrapper {
+    display: flex;
+    flex-direction: column;text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+            font-weight: 300;
+        }
+        .about-button {
+            width: 180px;
+            height: 40px;
+            margin-top: 24px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+        }
+}

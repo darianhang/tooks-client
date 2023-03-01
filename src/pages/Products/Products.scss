@@ -1,0 +1,62 @@
+
+
+.products-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+
+    .products-title {
+        margin-top: 60px;
+        font-weight: 500;
+    }
+
+    .products-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .filters-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 50px;
+        justify-content: space-between;
+        align-items: center;
+
+        .color-filter {
+            display: flex;
+            gap: 10px;
+            margin: 0 0 0 25px;
+        }
+
+        .color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: large;
+            margin: 0;
+            text-align: center;
+        }
+
+        .product-filter {
+            width: 120px;
+            height: 40px;
+            border-color: transparent;
+            background-color: #f6f6f6;
+            margin: 0 25px 0 0;
+            padding: 0 15px 0 15px;
+            appearance: none;
+            background-image: url(//cdn.shopify.com/s/files/1/0477/9461/8532/t/2/assets/ico-select.svg?v=8010346…);
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+        }
+    }
+}
