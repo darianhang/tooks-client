@@ -20,7 +20,7 @@ const Layout = () => {
 const ErrorBoundary = () => {
   return (
     <div>
-      Oops, my server must be down. Sorry potential hiring manager :(
+      Oops, my server must be down :(
     </div>
   )
 }
