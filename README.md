@@ -11,7 +11,7 @@
 - SASS
 - Redux
 
-# Steps to run
+## Steps to run
 
 `npm start`
 
